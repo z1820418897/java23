@@ -6,7 +6,7 @@ public enum Esingleton {
     uniqueinstance;
 
 
-    /*单例可以有自己的操作*/
+    //单例可以有自己的操作
     public void doInstance(){
         //功能处理
     }

@@ -1,6 +1,6 @@
 package com.zhc.util;
 
-/*双重检查同步实现懒汉式单例*/
+//双重检查同步实现懒汉式单例*/
 public class LazySingleton2 {
 
     private volatile static LazySingleton2 instance = null;
