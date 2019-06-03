@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args){
 
         System.out.println("饿汉式："+EagerSingleton.getInstance());
-        System.out.println("懒汉式："+Esingleton.uniqueinstance);
+        System.out.println("枚举："+Esingleton.uniqueinstance);
         System.out.println("懒汉式："+LazySingleton.getInstance());
         System.out.println("懒汉式："+LazySingleton2.getIntance());
         System.out.println("懒汉式："+Singleton.getInstance());
